@@ -2,6 +2,9 @@
 
 set -e
 
+set -x #echo on
+
+
 function indent() {
   c='s/^/       /'
   case $(uname) in
